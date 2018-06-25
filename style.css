@@ -1,0 +1,107 @@
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, orange , yellow, #16F016, cyan, blue, #FF4091, orange , yellow, #16F016, cyan, blue, #FF4091);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+#unicorn {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to bottom left, #FED284 , yellow, #9BFE9B, cyan, #9494FE, #FF4091, #FED284 , yellow, #9BFE9B, cyan, #9494FE, #FF4091, #FED284 , yellow, #9BFE9B, cyan, #9494FE, #FF4091, #FED284 , yellow, #9BFE9B, cyan, #9494FE, #FF4091);
+    position: relative;
+    z-index: -1;
+}
+
+.head {
+    background-color: #fff;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 50px;
+    transform: rotate(-20deg);
+
+}
+
+.cheeks {
+    background-color: #fff;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    top: 170px;
+    right: 100px;
+}
+
+.neck {
+    width: 72px;
+    height: 0;
+    position: absolute;
+    border-bottom: 250px solid white;
+    border-left: 45px solid transparent;
+    border-right: 80px solid transparent;
+    top: 160px;
+    left: 257px;
+    transform: rotate(-25deg);
+}
+
+.ear1 {
+    width: 60px;
+    height: 27px;
+    border-bottom-left-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 120px;
+    left: 286px;
+    transform: rotate(120deg);
+}
+
+.ear2 {
+    width: 60px;
+    height: 27px;
+    border-bottom-right-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 112px;
+    left: 261px;
+    transform: rotate(-105deg);
+}
+
+.mouth {    
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 214px;
+    left: 85px;
+}
+
+.cone {
+    width: 0;
+    height: 0;
+    border-bottom: 130px solid white;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 28px;
+    left: 192px;
+}
+
+.ear1 {
+
+}
